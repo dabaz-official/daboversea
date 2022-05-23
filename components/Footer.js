@@ -16,7 +16,7 @@ function Footer() {
         <div className="space-y-2 text-lg text-gray-9">
           <h5 className="font-bold">Feedback</h5>
           <p>Report a bug</p>
-          <p>Have a problem</p>
+          <p>Have an issue</p>
         </div>
         <div className="space-y-2 text-lg text-gray-9">
           <h5 className="font-bold">Host</h5>
