@@ -10,7 +10,7 @@ This is the [repository](https://github.com/dabaz-official/daboversea/) for [Dab
   CSS Framework
 - [**Heroicons**](https://heroicons.com/) - 
   Beautiful hand-crafted SVG icons
-- [**Vercel**](https://reactjs.org/) - 
+- [**Vercel**](https://vercel.com/) - 
   Platform to deploy
 
 ## Want to work with me?
