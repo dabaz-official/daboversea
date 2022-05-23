@@ -1,6 +1,6 @@
 # DabOversea
 
-This is the [repository](https://github.com/dabaz-official/daboversea/) for [DabOversea](https://dabaz.vercel.app/).
+This is the [repository](https://github.com/dabaz-official/daboversea/) for [DabOversea](https://daboversea.vercel.app/).
 
 ## Ingredients
 
