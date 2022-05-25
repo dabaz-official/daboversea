@@ -2,11 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Login() {
+export default function Password() {
   return (
     <div className="2xl:container h-screen m-auto">
       <Head>
-        <title>Login - DabOversea</title>
+        <title>Change Your Password - DabOversea</title>
         <meta name="description" content="Designed and developed by DabAZ" />
         <link rel="icon" href="/dabaz.ico" />
       </Head>
@@ -34,22 +34,18 @@ export default function Login() {
             <div>
               <input type="username" placeholder="Your username" className="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none" />
             </div>
+            <div>
+              <input type="password" placeholder="Original password" className="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none" />
+            </div>
             <div className="flex flex-col items-end">
-              <input type="password" placeholder="Your password" className="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none" />
-              <Link href="/login/password">
-                <a>
-                  <button type="reset" class="w-max p-3 -mr-3">
-                    <span class="text-sm tracking-wide text-blue-600">Change password</span>
-                  </button>
-                </a>
-              </Link>
+              <input type="password" placeholder="New password" className="w-full py-3 px-6 ring-1 ring-gray-300 rounded-xl placeholder-gray-600 bg-transparent transition disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 invalid:ring-red-400 focus:invalid:outline-none" />          
             </div>
 
             <div>
-              <Link href="/dashboard">
+              <Link href="/login/">
                 <a>
                   <button class="w-full px-6 py-3 rounded-xl bg-primary transition hover:bg-primary focus:bg-primary active:bg-primary-hover">
-                    <span class="font-semibold text-white text-lg">Login</span>
+                    <span class="font-semibold text-white text-lg">Submit</span>
                   </button>
                 </a>
               </Link>
