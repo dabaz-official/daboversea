@@ -12,6 +12,10 @@ This is the [repository](https://github.com/dabaz-official/daboversea/) for [Dab
   Beautiful hand-crafted SVG icons
 - [**Vercel**](https://vercel.com/) - 
   Platform to deploy
+- [**Prisma**](https://www.prisma.io/) -
+  An open source database toolkit
+- [**PostgreSQL**](https://www.postgresql.org/) -
+  A powerful, open source object-relational database system
 
 ## Want to work with me?
 
